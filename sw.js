@@ -1,7 +1,7 @@
 const SCOPE=new URL(self.registration.scope);
 const CACHE_PREFIX='little-sun:'+SCOPE.pathname+':';
-const CACHE=CACHE_PREFIX+'a993a9890c86';
-const FILES=["./","./THIRD-PARTY-NOTICES.txt","./assets/index-CmqiYaHC.css","./assets/index-DF4V_4Pt.js","./assets/mother-baby.png","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./icons/icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE=CACHE_PREFIX+'2c9331b819a7';
+const FILES=["./","./THIRD-PARTY-NOTICES.txt","./assets/customer-moods.png","./assets/index-BCqzfuXA.js","./assets/index-BFefKlJ5.css","./assets/mother-baby.png","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./icons/icon.svg","./index.html","./manifest.webmanifest"];
 const inScope=url=>url.origin===SCOPE.origin&&url.pathname.startsWith(SCOPE.pathname);
 async function remember(cache,request,response) {
   if(response.ok&&(!response.url||inScope(new URL(response.url)))) {
