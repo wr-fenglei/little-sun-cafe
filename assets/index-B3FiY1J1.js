@@ -4110,7 +4110,7 @@ void main() {
     <header class="topbar">
       <a class="brand" href="#" aria-label="晴日小馆首页"><span class="brand-sun">${Z(`sun`)}</span><span><strong>晴日小馆</strong><small>LITTLE SUN CAFÉ</small></span></a>
       <div class="day-header"><span class="day-number">第一天</span><span class="day-divider"></span><span class="day-title">重新开门的早晨</span></div>
-      <nav class="top-actions" aria-label="游戏控制"><button class="icon-button sound-button" data-action="sound" aria-label="关闭声音" title="声音">${Z(`sound`)}</button><button class="icon-button" data-action="help" aria-label="游戏帮助" title="怎么玩">${Z(`help`)}</button><button class="icon-button pause-button" data-action="pause" aria-label="暂停游戏" title="暂停 [空格]">${Z(`pause`)}</button></nav>
+      <nav class="top-actions" aria-label="游戏控制"><button class="icon-button sound-button" data-action="sound" aria-label="关闭声音" title="声音" hidden>${Z(`sound`)}</button><button class="icon-button" data-action="help" aria-label="游戏帮助" title="怎么玩" hidden>${Z(`help`)}</button><button class="icon-button pause-button" data-action="pause" aria-label="暂停游戏" title="暂停 [空格]">${Z(`pause`)}</button></nav>
     </header>
     <div class="game-hud">
       <section class="score-panel" aria-label="关卡进度"><div class="score-heading"><span>今日的小目标</span><span class="goal-stars">${Z(`star`)}${Z(`star`)}${Z(`star`)}</span></div><div class="score-value"><strong data-ui="score">0</strong><span>/ <span data-ui="goal">360</span></span><span class="score-unit">暖心分</span></div><div class="score-track"><span></span><i style="left:68.9655%"></i><i style="left:82.7586%"></i></div><div class="score-caption"><span>已招待 <b data-ui="served">0</b> / <span data-ui="total">9</span> 位客人</span><span class="combo-text"></span></div></section>
